@@ -1,0 +1,17 @@
+User,The cognitive effort required to understand the JavaMOP spec and the lightweight specification are the same,The specification in JavaMOP is easier to read/understand when compared with the lightweight specification,The lightweight specification is easier to read/understand when compared with the specification in JavaMOP,After reading the formal specification in JavaMOP for the properties assigned to me I consider that my specification in the lightweight language will be able to reveal the same warnings during Runtime Verification,After reading the formal specification in JavaMOP for the properties assigned to me I noticed aspects that were not covered by my specification in the lightweight language,After reading the specifications in JavaMOP I consider that the lightweight language requires the addition of new features,"If you answered Agree (4) or Strongly Agree (5) in the previous question, please explain which features need to be added to the lightweight language and why"
+anonymized,2,4,2,2,5,2, 
+anonymized,4,5,3,3,5,4,"I think that the use of Logic plugins (http://fsl.cs.illinois.edu/index.php/Special:LogicRepository3) together with functions makes for a better understanding of what causes errors, compared to reading a plain Java code without standard."
+anonymized,2,4,2,5,4,4,"In my opinion, once you learn how the JavaMOP specification works, it is easier to read/understand because of the feature to name the checks which helps the programmer to have an idea about what the code does. On the other hand in the lightweight specification, the programmer doesn't have an overview of what the check does until they read all the code. So I believe it would be an improvement to add this naming feature to the lightweight specification."
+anonymized,3,2,4,4,5,3,Not required
+anonymized,2,2,4,1,5,5,"""Line 69 - java.lang.Byte.parseByte"" Negative numbers have to be considered as valid numbers."
+anonymized,2,2,4,2,3,4,
+anonymized,2,1,5,5,5,5,"The lightweight language does not support evaluation of future events (not past events disconsidering the made up history function). This is a hard limitation for the types of validations that can be done.
+
+Also, JavaMOP is much more expressive and enable use of CFG, LTL, ERE, etc, for matching some scenarios. In contrast, the lightweight language is basically plain Java code doing all sorts of validations."
+anonymized,4,3,3,2,5,3,
+anonymized,5,3,3,4,2,3,3
+anonymized,1,2,4,5,4,3,  
+anonymized,1,1,5,5,3,1,"In my experience no additions are required besides what we discussed in class (ie. @After(""..."")) "
+anonymized,1,3,3,4,4,3, 
+anonymized,1,1,5,3,4,4,The possibility of defining events and telling the order of those events as an faulty scenario
+anonymized,2,4,2,4,3,3,NA
