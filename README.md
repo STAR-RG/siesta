@@ -6,16 +6,23 @@ This repository is organized according to the following structure:
 
 - the [`replication-package`](replication-package) folder contains the dataset of properties from PropertyDB, the language specification document, the applied questionnaires, and students' responses;
 - the [`prototype`](prototype) folder contains the tool prototype for using the language. 
+- the [`sample`](sample) folder contains a sample project already configured with the tool, specifying a particular property from our sample ([`StringBuilder_ThreadSafe`](https://github.com/runtimeverification/property-db/blob/master/annotated-java-api/java/lang/StringBuilder_ThreadSafe.mop)). 
 
 ## Setup Instructions
 
-...
+### Requirements
+- Java 1.8
+- Apache Commons Lang 3-3.1
 
+### Executing SIESTA
 
-#### Executing SIESTA
+Considering the [`sample`](sample) project, given the requirements, you only need to execute two commands in the command line: 
+```
+> ant ajmlc
+> ant ajmlrac
+```
 
-...
-
+If you wish to test a different scenario where the property is not violated, you can change the [`main.class`](https://github.com/STAR-RG/siesta/blob/d0ef1984077d50cea3a3dc28cdcf25d8a334ff5a/sample/StringBuilder%20Single%20Thread/build.xml#L38) property from the [`build.xml`](https://github.com/STAR-RG/siesta/blob/main/sample/StringBuilder%20Single%20Thread/build.xml) file in line 38 to `stringbuilderexample.StringBuilderSingleThreadDemo`.
 
 ## How to cite SIESTA
 
